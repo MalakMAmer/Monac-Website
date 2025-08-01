@@ -3,25 +3,22 @@ Monac is a modern, responsive, and visually engaging online learning platform la
 Project Description
 ## Project Description
 Monac provides a simple and elegant interface that emphasizes:
-.Fast skill acquisition through quality content
-
-.Learner-focused features like video lessons, certificates, and mentor interaction
-
-.Popular courses displayed dynamically
-
-.Smooth responsive layout for both desktop and mobile
+.Fast skill acquisition through quality content<br>
+.Learner-focused features like video lessons, certificates, and mentor interaction<br>
+.Popular courses displayed dynamically<br>
+.Smooth responsive layout for both desktop and mobile<br>
 
 
 ## The landing page includes:
-.A fully structured and accessible nav, main, section, footer layout
-.Modern typography and strong contrast colors
-.FontAwesome icons and semantic ARIA roles for improved accessibility
-.Responsive sections, media queries, and mobile optimization
+.A fully structured and accessible nav, main, section, footer layout<br>
+.Modern typography and strong contrast colors<br>
+.FontAwesome icons and semantic ARIA roles for improved accessibility<br>
+.Responsive sections, media queries, and mobile optimization<br>
 
 ## Tech Stack
-.HTML5 (semantic and SEO-friendly)
-.CSS3 (modular structure with external stylesheets)
-.FontAwesome 6.7.2 (for icons)
-.Responsive Design using Flexbox and Media Queries
+.HTML5 (semantic and SEO-friendly)<br>
+.CSS3 (modular structure with external stylesheets)<br>
+.FontAwesome 6.7.2 (for icons)<br>
+.Responsive Design using Flexbox and Media Queries<br>
 
 
