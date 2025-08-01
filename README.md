@@ -4,9 +4,13 @@ Project Description
 ## Project Description
 Monac provides a simple and elegant interface that emphasizes:
 .Fast skill acquisition through quality content
+
 .Learner-focused features like video lessons, certificates, and mentor interaction
+
 .Popular courses displayed dynamically
+
 .Smooth responsive layout for both desktop and mobile
+
 
 ## The landing page includes:
 .A fully structured and accessible nav, main, section, footer layout
