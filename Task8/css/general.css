@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style:none;
+    font-family: sans-serif;
+    /*Reset spacing and box model for consistency across all elements*/
+}
+:root{
+    --text-muted: rgba(0, 0, 0, 0.6);
+    /* for the p */
+    --yellow: #f9c265;
+    --brown: rgb(56, 46, 25);
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: white; 
+    /* defaults but would change later in other codes */
+    transition: opacity 200ms ease;
+}
+a:hover{
+   opacity: 0.8; 
+   cursor: pointer;
+}
+a:focus{
+   opacity: 0.8; 
+}
+
+/* inter font linking */
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter-Italic-VariableFont.ttf') format('truetype');
+  /*.woff2 not available in download package*/
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap
+}
+
+p,h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Inter', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    text-transform: capitalize; 
+}
+p{
+    font-size: clamp(1rem, 1vw, 1.1rem);
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 1.6;
+}
+h1{
+    font-size: clamp(3rem, 3.5vw, 4rem);
+}
+h2{
+    font-size: clamp(2.5rem, 3vw, 3.5rem);
+}
+h3{
+    font-size: clamp(2rem, 3vw, 3rem);
+}
+h4{
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+}
+h5{
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+h6{
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.yellowSpan{
+    background-color:var(--yellow);
+    font-style: italic;
+    font-weight: 500;
+    padding: 0.1rem 0.6rem;
+    border: 0.1rem solid black;
+    border-radius: 3.1rem;
+}
