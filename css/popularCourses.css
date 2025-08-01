@@ -1,0 +1,88 @@
+
+main #populerCourses{
+    background-color: black;
+    padding: 6rem 3rem;
+    color: white;
+}
+main #populerCourses h2{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+main #populerCourses h2 span{
+    color: var(--yellow);
+    font-style: italic;
+    font-weight: 400;
+    padding: 0.3rem;
+    border: 1px solid var(--yellow);
+    border-radius: 2em;
+}
+main #courseContainer{
+    display: flex;
+    justify-content: space-around;
+}
+main #courseContainer .courseItem{
+    background-color: white;
+    width: 30%;
+    border-radius: 0.6em;
+    color: black;
+    padding: 1.2rem;
+}
+main #courseContainer .courseItem img.mainImg{
+    width: 100%;
+}
+main #courseContainer .courseItem h3{
+    font-size: 1.2rem;
+    padding: 0.6rem 0 1.2rem 0;
+}
+main #courseContainer .courseItem a{
+    color: black;
+    padding: 0.5rem 0.6rem;
+    border: 2px solid black;
+    border-radius: 1.2rem;
+    font-weight: 700;
+    transition: all  300ms ease;
+}
+main #courseContainer .courseItem a:hover{
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+}
+main #courseContainer .courseItem .courseAnalytics{
+    display: flex;
+    justify-content: space-between;
+}
+main #courseContainer .courseItem .courseAnalytics .leftSide{
+    display: flex;
+    align-items: center;
+}
+main #courseContainer .courseItem .courseAnalytics .leftSide i{
+    padding: 0 4px;
+}
+main #courseContainer .courseItem .courseAnalytics .leftSide p{
+    color: rgba(0, 0, 0, 0.8);
+}
+main #courseContainer .courseItem .courseAnalytics .leftSide p span{
+    color: rgba(0, 0, 0, 0.6);
+    padding: 0 2px;
+}
+main #courseContainer .courseItem .courseAnalytics .rightSide{
+    display: flex;
+    align-items: center;
+}
+main #courseContainer .courseItem .courseAnalytics .rightSide i{
+    padding: 0 4px;
+}
+main #courseContainer .courseItem .courseAnalytics .rightSide p{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* popularCourses media */
+@media (max-width: 600px) {
+    main #courseContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main #courseContainer .courseItem{
+        width: 100%;
+        margin: 5px;
+    }
+}

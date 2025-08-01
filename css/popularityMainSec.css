@@ -1,0 +1,44 @@
+
+/* main{
+
+} */
+main #popularity{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+main #popularity .PopularityDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 8rem;
+    position: relative;
+}
+main #popularity .PopularityDiv h4{
+    padding: 0.6rem 0;
+    font-size: clamp(2.5rem, 3vw, 3rem);
+}
+/* main #popularity .PopularityDiv p{
+
+} */
+main #popularity .yellowSeparator{
+    content: "";
+    position: relative;
+    width: 2px;
+    height: 20px;
+    background-color: #f9c265;
+    top: 75px;
+}
+/* media for the yellow separator */
+@media (max-width: 600px) {
+    main #popularity .yellowSeparator{
+        display: none;
+    }
+    main #popularity .PopularityDiv h4{
+        text-align: center;
+    }
+    main #popularity .PopularityDiv p{
+        text-align: center;
+    }
+}

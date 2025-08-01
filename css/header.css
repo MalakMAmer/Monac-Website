@@ -1,0 +1,146 @@
+
+/* nav styling */
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: var(--yellow);
+}
+nav ul{
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 1rem;
+    font-weight: 700;
+}
+nav ul li a{
+    color: black;
+    transition: all 200ms ease;
+}
+nav ul li a:hover{
+    color: var(--brown);
+    cursor: pointer;
+}
+/* nav #logoContainer{
+    
+} */
+nav #logoContainer img{
+    width: 9rem;
+}
+/* nav #buttonContainer{
+
+} */
+nav #buttonContainer a{
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    border-radius: 1.2em;
+    transition: all 200ms ease;
+}
+nav #buttonContainer a:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+nav #buttonContainer a#login{
+    color: black;
+}
+nav #buttonContainer a#signup{
+    background-color: black;
+}
+
+/* header styling */
+
+header{
+    background-color: #f9c265;
+    padding:0 3rem;
+}
+header #topHeaderSec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+header #topHeaderSec #headerImgContainer{
+    width: 50%;
+    min-width: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+header #topHeaderSec #headerImgContainer img{
+    width: 30rem;
+}
+header #topHeaderSec #headerMainContect{
+    width: 50%;
+    /* text center */
+}
+header #topHeaderSec #headerMainContect p{
+    width: 70%;
+    min-width: 10rem;
+}
+header #topHeaderSec #headerMainContect a#enrollBtn{
+    color: #000;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    margin: 2rem 0 0 0;
+    border: 1.5px solid rgba(0, 0, 0, 0.6);
+    border-radius: 1.2em;
+    transition: all 400ms ease;
+}
+header #topHeaderSec #headerMainContect a#enrollBtn:hover{
+    color: var(--brown);
+    border-color: var(--brown);
+}
+header #bottomHeaderSec{
+    display: flex;
+    justify-content: center;
+}
+header #bottomHeaderSec img{
+    width: 45rem;
+}
+
+/* media for the nav */
+
+@media (max-width: 600px) {
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        width: 100%;
+        padding-bottom: 1rem;
+        justify-content: space-around;
+    }
+    nav #logoContainer{
+        padding: 1rem;
+    }
+    
+}
+/* media for the header */
+@media (max-width: 600px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header #topHeaderSec{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header #topHeaderSec #headerMainContect p{
+        width: 100%;
+        text-align: center;
+    }
+    header #topHeaderSec #headerMainContect{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

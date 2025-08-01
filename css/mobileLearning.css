@@ -1,0 +1,69 @@
+
+main #learningOnMobile{
+    background-color: #FDF6E4;
+    padding: 10rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main #learningOnMobile #innerSamllerContainer{
+    width: 50%;
+}
+main #learningOnMobile #innerSamllerContainer h2{
+    text-align: center;
+    padding: 2.2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main #learningOnMobile #innerSamllerContainer h2 span{
+   display: block; 
+   width: fit-content;
+}
+main #learningOnMobile #innerSamllerContainer #outsideContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main #learningOnMobile #innerSamllerContainer .appContainer{
+    background-color: black;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    transition: all 200ms ease;
+    margin: 4px;
+}
+main #learningOnMobile #innerSamllerContainer .appContainer:hover{
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+/* main #learningOnMobile #innerSamllerContainer .appContainer div{
+
+} */
+main #learningOnMobile #innerSamllerContainer .appContainer i{
+    color: white;
+    font-size: 2rem;
+}
+main #learningOnMobile #innerSamllerContainer .appContainer p{
+    color: white;
+    padding: 0 1rem;
+    font-size: 0.8rem;
+}
+main #learningOnMobile #innerSamllerContainer .appContainer span{
+    font-size: 1.2rem;
+    display: block;
+}
+
+/* media */
+
+@media (max-width: 600px) {
+    main #learningOnMobile #innerSamllerContainer{
+        width: 100%;
+    }
+    main #learningOnMobile #innerSamllerContainer .appContainer{
+        width: 45%;
+    }
+}

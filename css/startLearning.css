@@ -1,0 +1,63 @@
+
+main #startLearning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+}
+main #startLearning #leftSideLearning{
+    padding: 2rem;
+    width: 40%;
+}
+main #startLearning #leftSideLearning h2{
+    padding: 1.2rem 0;
+    line-height: 1.35;
+}
+/* main #startLearning #leftSideLearning h2 span.yellowSpan{
+    
+} */
+main #startLearning #leftSideLearning p{
+    width: 80%;
+    padding: 0.6rem 0;
+}
+main #startLearning #leftSideLearning ul{
+    list-style: none;
+}
+main #startLearning #leftSideLearning ul li{
+    position: relative;
+    padding-left: 1.5rem;
+}
+main #startLearning #leftSideLearning ul li::before {
+  content: "";
+  background-image: url('/img/main/checked.png');
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+}
+main #startLearning #rightSideLearning{
+    width: 40%;
+}
+main #startLearning #rightSideLearning img{
+    width: 100%;
+}
+
+/* startLearning media */
+
+@media (max-width: 600px) {
+    main #startLearning{
+        flex-direction:column;
+    }
+    main #startLearning #leftSideLearning{
+        width: 100%;
+    }
+    main #startLearning #leftSideLearning p{
+        width: 100%;
+    }
+    main #startLearning #rightSideLearning{
+        width: 100%;
+    }
+}
