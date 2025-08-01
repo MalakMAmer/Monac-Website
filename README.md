@@ -2,7 +2,7 @@
 Monac is a modern, responsive, and visually engaging online learning platform landing page, crafted with semantic HTML5 and organized CSS. It is designed for users seeking flexible and high-quality education in tech, design, and business, featuring smooth navigation, strong calls to action, and informative course highlights.
 Project Description
 ## Project Description
-Monac provides a simple and elegant interface that emphasizes:
+Monac provides a simple and elegant interface that emphasizes:<br>
 .Fast skill acquisition through quality content<br>
 .Learner-focused features like video lessons, certificates, and mentor interaction<br>
 .Popular courses displayed dynamically<br>
