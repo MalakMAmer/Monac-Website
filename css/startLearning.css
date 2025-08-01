@@ -29,7 +29,7 @@ main #startLearning #leftSideLearning ul li{
 }
 main #startLearning #leftSideLearning ul li::before {
   content: "";
-  background-image: url('/img/main/checked.png');
+  background-image: url('img/main/checked.png');
   background-size: 1rem;
   background-repeat: no-repeat;
   width: 1rem;
@@ -60,4 +60,5 @@ main #startLearning #rightSideLearning img{
     main #startLearning #rightSideLearning{
         width: 100%;
     }
+
 }
